@@ -1,0 +1,19 @@
+{
+  "name": "pbl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"cd backend && python app.py",
+    "dev":"cd backend_train && python App.py",
+    "devs":"cd backend_last && python APP.py"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
